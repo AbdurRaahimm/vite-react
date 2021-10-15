@@ -1,7 +1,10 @@
 {
+  "homepage": "https://AbdurRaahimm.github.io/vite-react",
   "name": "vite-react",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
+    "gh-pages": "^3.2.3",
     "vite": "^2.6.4"
   }
 }
